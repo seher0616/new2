@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+body{
+    background-color:cadetblue;
+    height: 250vh;
+}
+.header{
+    background-color: rgba(255, 255, 255, 0.607);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    border-radius: 80px;
+    margin: 25px;
+    position: sticky;
+    top: 0;
+}
+.header img{
+    width: 150px;
+    border-radius: 80px;
+}
+.navbar a{
+    color: darkblue;
+    font-size: 20px;
+    margin: 0 25px;
+    border-bottom: 1px solid transparent;
+}
+.navbar a i{
+    margin-right: 8px ;
+}
+.navbar .active,
+ .navbar a:hover{
+    border-color: cadetblue;
+    padding-bottom: 3px;
+}
+.headerdiv i{
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.home{
+    background: url(developers-twt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    margin-top: -200px;
+    display: flex;
+    align-items: center;
+}
+.homediv{
+    margin: 0 7%;
+    color:white ;
+    width: 60%;
+}
+.homediv h1{
+    font-size: 70px;
+}
+.homediv p{
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 30px;
+    letter-spacing: 1.8px;
+} 
+.teamsection h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+}
+.member img{
+    width: 400px;
+    height: 300px;
+    border-radius: 60px;
+}
+.big1, .big2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.member{
+    margin: 30px;
+    background-color: white;
+    border-radius: 50px;
+    height: 500px;
+    text-align: center;
+}
+h3{
+    font-size: 36px;
+    margin: 20px;
+}
+.member p{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.member button{
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.member button:hover{
+    background-color: darkorange;
+    color: white;
+}
+.member a{
+    font-size: 25px;
+    color: black;
+}
+.footer{
+    background-color: rgb(154, 236, 238);
+    height: 15vh;
+    text-align: center;
+}
+.footer p{
+    font-size: 25px;
+    padding: 25px 0 20px;
+}
+.footer span{
+    color: red;
+}
+.footer button{
+    height: 30px;
+    width: 150px;
+    border-radius: 50px;
+}
+.footer button:hover{
+    background-color: darkorange;
+}
+.footer a{
+    color: black;
+    font-size: 20px;
+}
